@@ -21,7 +21,7 @@ class _ProfilScreenState extends State<ProfileScreen> {
   @override
   void initState() {
     _nameCtrl = TextEditingController(text: widget.user!.name);
-    _usernameCtrl = TextEditingController(text: widget.user!.userName);
+    _usernameCtrl = TextEditingController(text: widget.user!.username);
     _emailCtrl = TextEditingController(text: widget.user!.email);
     super.initState();
   }
@@ -52,7 +52,7 @@ class _ProfilScreenState extends State<ProfileScreen> {
                     padding: const EdgeInsets.all(10.0),
                     child: CircleAvatar(
                       radius: 50,
-                      backgroundImage: NetworkImage(widget.user!.profileImage!),
+                      backgroundImage: NetworkImage(widget.user!.profilePhoto!),
                     ),
                   ),
                   Form(
