@@ -24,9 +24,15 @@ class AppRoutes {
     } else {
       user = User(
         id: 002,
+<<<<<<< HEAD
         name: "Tania Andzani",
         username: "taniaandzn",
         email: "2006134@itg.ac.id",
+=======
+        name: "noname",
+        username: "noname",
+        email: "noname@email.com",
+>>>>>>> 1b6d033cca512d313388a5e039f94515e0c3514c
         profilePhoto:
             "https://i.pinimg.com/originals/06/87/a8/0687a8ac12eee878f87ddfa8f0cc66d8.jpg",
         phoneNumber: "085111123456",
