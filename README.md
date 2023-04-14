@@ -8,6 +8,6 @@ Evaluasi Praktikum Pemrograman Mobile - News Apps
 Anggota Kelompok :
 
 1. Irgi Pardiansyah
-2. Lisdayanti
+2. Lisda Nurhaqiqi
 3. Alpin Purnama
 4. Tania Andzani
