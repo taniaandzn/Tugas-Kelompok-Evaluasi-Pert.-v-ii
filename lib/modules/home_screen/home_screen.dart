@@ -9,9 +9,9 @@ import 'package:pertemuan_v/modules/home_screen/fragments/news_fragment/news_fra
 class HomeScreen extends StatefulWidget {
   const HomeScreen({
     super.key,
-    // required this.user,
+  required this.user,
   });
-  // final User user;
+  final User user;
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
